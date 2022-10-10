@@ -1,0 +1,48 @@
+#heading {
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+#navbar li a {
+    padding: 0px 10px;
+    border-right: 2px solid darkcyan;
+    margin: 5px;
+    color: darkcyan;
+}
+
+.innerHtml,
+ .mediaInner{
+    display: none;
+}
+
+.html:hover .innerHtml,
+#media:hover .mediaInner
+ {
+    display: block;
+    
+}
+.innerIntro, .innerCombi,.innerIntroCSS{
+    display: none;
+}
+
+.css:hover .innerIntro ,
+.combinators:hover .innerCombi,
+.innerIntro:hover .innerIntroCSS,
+.combinators:hover .innerCombi{
+    display: block;
+}

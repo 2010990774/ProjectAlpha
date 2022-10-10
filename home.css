@@ -1,0 +1,41 @@
+#heading {
+    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    border-right: 2px solid darkcyan;
+}
+
+#navbar li a {
+    padding: 0px 10px;
+    margin: 5px;
+    color: darkcyan;
+}
+
+img {
+    height: 75px;
+    width: 220px;
+    margin: 20px;
+    align-items: center;
+}
+
+#content {
+    /* margin-top: 25px;
+    margin-left: 115px; */
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    padding: 10px;
+}

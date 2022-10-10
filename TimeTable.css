@@ -1,0 +1,57 @@
+#heading{
+    text-align: center;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* width: 70vw;
+    margin: 40px; */
+    flex-wrap: wrap;
+}
+
+#navbar li{
+    list-style:none;
+    border-right : 2px solid darkcyan;
+}
+
+#navbar li a{
+    padding: 0px 10px;
+    margin: 5px;
+    color: darkcyan;
+}
+
+.mar{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+tr:nth-of-type(odd){
+    background-color: lightgray;
+}
+tr:nth-of-type(even){
+    background-color: white;
+}
+
+
+
+#luc{
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+#heading{
+    display: flexbox;
+    align-items: center;
+    margin: auto;
+}
+/* .ran{
+    font-weight: bold;
+    border: 3px solid black;
+} */
+
+
